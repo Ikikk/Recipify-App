@@ -1,0 +1,619 @@
+<resources>
+    <string name="app_name">Recipify</string>
+    <string name="food_name">Nama Resep</string>
+    <string name="descriptions">Deskripsi</string>
+    <string name="ingredients">Bahan-bahan</string>
+    <string name="steps">Langkah-langkah</string>
+    <string name="list">List</string>
+    <string name="grid">Grid</string>
+    <string name="share">Share</string>
+    <string name="food_img_desc">Food_img</string>
+    <string name="profile">Profile</string>
+    <string name="profile_name">Rizky Alifiyah Rahma</string>
+    <string name="email">rizkyalifiyah1463@gmail.com</string>
+    <string name="profile_desc">Saya adalah mahasiswi semester 6 di Institut Teknologi Sepuluh Nopember (ITS) departemen Teknik Informatika</string>
+    <string name="profile_img_desc">profileimg</string>
+    <string name="logo_img_desc">logoimg</string>
+    <string name="resepimg_desc">resepimg</string>
+
+    <string-array name="data_name">
+        <item>Rendang Paha Ayam Organik</item>
+        <item>Gulai Ayam</item>
+        <item>Indomie Seblak Makaroni</item>
+        <item>Penyetan Sambel Terasi Udang</item>
+        <item>Tumis Jamur Tiram</item>
+        <item>Resep Capcay</item>
+        <item>Oseng Kacang Panjang</item>
+        <item>Cumi Saus Mentega</item>
+        <item>Resep Pesmol Ikan</item>
+        <item>Cumi Sambel Ijo</item>
+        <item>Pepes Lais Tempoyak</item>
+        <item>Resep Ikan Bakar</item>
+        <item>Sup Kimlo Bakso</item>
+        <item>Ikan Masak Belimbing</item>
+        <item>Asem-asem Daging</item>
+        <item>Kerang Ijo Pedas</item>
+        <item>Jengkol Kalio</item>
+        <item>Garang Asem Ayam</item>
+        <item>Telur Dadar Gulung Saos Asam Manis</item>
+        <item>Sup Tulang</item>
+    </string-array>
+
+    <string-array name="data_descriptions">
+        <item>Hidangan khas Minangkabau yang menggunakan paha ayam organik, dimasak dengan rempah-rempah kaya akan bumbu hingga daging empuk dan bumbu meresap.</item>
+        <item>Kuah kental berbumbu kunyit dan santan, dengan potongan ayam yang lembut, merupakan sajian khas Indonesia yang kaya rasa</item>
+        <item>Perpaduan unik antara mie instan dengan seblak khas Sunda, ditambah makaroni untuk tekstur yang berbeda</item>
+        <item>Ayam atau tempe yang dipenyet bersama sambal terasi udang yang pedas, memberikan cita rasa yang khas dan menggugah selera</item>
+        <item>Jamur tiram yang ditumis dengan bumbu sederhana, menyajikan rasa umami yang khas dan tekstur yang lezat</item>
+        <item>Sayuran segar yang dipadukan dengan potongan ayam atau seafood, dimasak dengan saus yang gurih, sajian sehat khas Tionghoa</item>
+        <item>Kacang panjang yang dioseng dengan bumbu pedas, menawarkan rasa yang gurih dan sedikit pedas</item>
+        <item>Cumi-cumi yang dimasak dengan saus mentega yang kaya rasa, menghasilkan hidangan yang lembut dan gurih</item>
+        <item>Ikan yang dimasak dengan bumbu kuning khas Sunda, disajikan dengan saus yang kental dan sedikit asam</item>
+        <item>Cumi yang disajikan dengan sambal hijau yang pedas, menawarkan sensasi rasa yang segar dan pedas</item>
+        <item>Ikan lais yang dibungkus dengan daun pisang dan dimasak dengan tempoyak, memberikan cita rasa yang asam dan unik</item>
+        <item>Ikan yang dibumbui dan dibakar hingga matang, menawarkan rasa yang gurih dengan aroma asap yang khas</item>
+        <item>Sup bening dengan isian bakso, jamur, dan sayuran, menawarkan rasa yang ringan dan menyegarkan</item>
+        <item>Ikan yang dimasak dengan belimbing wuluh, memberikan cita rasa asam yang menyegarkan dan unik</item>
+        <item>Potongan daging yang dimasak dengan kuah asam, memberikan sensasi rasa yang kaya dan segar</item>
+        <item>Kerang hijau yang disajikan dengan saus pedas, menggugah selera dengan rasa yang pedas dan gurih</item>
+        <item>Jengkol yang dimasak dengan bumbu khas Minang, menghasilkan hidangan yang pedas dan kaya rempah</item>
+        <item>Ayam yang dimasak dalam bungkus daun pisang dengan cita rasa asam, gurih, dan sedikit pedas</item>
+        <item>Telur dadar yang digulung dan disajikan dengan saus asam manis, menawarkan rasa yang unik dan menarik</item>
+        <item>Kuah bening kaya rasa dengan tulang sapi atau tulang ayam sebagai bahan utama, menghangatkan dan menyehatkan</item>
+    </string-array>
+
+    <integer-array name="data_photo">
+        <item>@drawable/rendang_paha_ayam_organik</item>
+        <item>@drawable/gulai_ayam</item>
+        <item>@drawable/indomie_seblak_makaroni</item>
+        <item>@drawable/penyetan_sambel_terasi_udang</item>
+        <item>@drawable/tumis_jamur_tiram</item>
+        <item>@drawable/capcay</item>
+        <item>@drawable/oseng_kacang_opanjang</item>
+        <item>@drawable/cumi_saus_mentega</item>
+        <item>@drawable/resep_pesmol_ikan</item>
+        <item>@drawable/cumi_sambel_ijo</item>
+        <item>@drawable/pepes_lais_tempoyak</item>
+        <item>@drawable/resep_ikan_bakar</item>
+        <item>@drawable/sup_kimlo_bakso</item>
+        <item>@drawable/ikan_masak_belimbing</item>
+        <item>@drawable/asem_asem_daging</item>
+        <item>@drawable/kerang_ijo_pedas</item>
+        <item>@drawable/jengkol_kalio</item>
+        <item>@drawable/garang_asem_ayam</item>
+        <item>@drawable/telur_dadar_gulung_saos_asam_manis</item>
+        <item>@drawable/sup_tulang</item>
+    </integer-array>
+
+    <string-array name="data_ingredient">
+        <item>
+            - 4 paha ayam organik\n
+            - 2 buah kentang, potong-potong\n
+            - 2 butir telur rebus\n
+            - 1 lembar daun kunyit, iris\n
+            - 4 lembar daun jeruk\n
+            - 2 lembar daun salam\n
+            - 1 bungkus kerisik atau kelapa parut kering\n
+            - 200 ml santan dan air\n
+            - Garam\n
+            - Gula malaka\n
+            - Penyedap rasa\n
+            - 8 butir bawang merah\n
+            - 3 butir bawang putih\n
+            - 1 cm kunyit\n
+            - 1 cm jahe\n
+            - 1 cm lengkuas\n
+            - 2 batang serai\n
+            - 3 buah cabai rawit\n
+            - 3 buah cabai merah\n
+        </item>
+        <item>
+            - 1/2 ekor ayam\n
+            - 1 buah jeruk nipis\n
+            - 1 batang serai geprek\n
+            - 2 lembar daun salam\n
+            - 2 lembar daun jeruk\n
+            - 200 ml santan encer\n
+            - 200 ml santan kental\n
+            - Air matang secukupnya\n
+            - Garam dan kaldu bubuk\n
+            - Satu bungkus Sasa Bumbu Gulai\n
+        </item>
+        <item>
+            - 1 bungkus mi instan rasa ayam bawang, rebus\n
+            - 30 gr macaroni rebus, tiriskan\n
+            - Kerupuk bawang mentah, rendam air panas dan beri sedikit minyak\n
+            - Daun bawang, iris\n
+            - 1 buah sosis, iris\n
+            - 1 buah telur, kocok lepas\n
+            - 2 gelas air\n
+            - Garam dan gula\n
+            - 3 bawang merah\n
+            - 2 bawang putih\n
+            - 5 cabai merah keriting\n
+            - 3 cabai rawit atau sesuai selera\n
+            - 1 cm kencur\n
+        </item>
+        <item>
+            - 25 buah cabai rawit merah\n
+            - 15 buah cabai rawit hijau\n
+            - 8 siung bawang merah\n
+            - 4 siung bawang putih\n
+            - 1 tomat sedang\n
+            - 2 bungkus terasi\n
+        </item>
+        <item>
+            - 2 bungkus jamur tiram\n
+            - 1/2 papan tempe\n
+            - 4 siung bawang merah\n
+            - 3 siung bawang putih\n
+            - 5 buah cabai hijau\n
+            - Saus tiram- Kaldu jamur\n
+            - Garam dan gula\n
+        </item>
+        <item>
+            - 1 buah kembang kol, potong per-kuntum\n
+            - 3 buah wortel, potong serong tipis\n
+            - 1 gelondong sawi putih, potong sesuai selera\n
+            - 1 bungkus kurang lebih 10 butir Jamur Merang, belah jadi 4\n
+            - 2-3 rumpun sawi hijau\n
+            - 10 buah bakso sapi\n
+            - 1 sdt Sasa Bumbu Ekstrak Daging Sapi\n
+            - 1 pasang fillet paha ayam potong kotak kecil\n
+            - 2 buah daun bawang, potong-potong\n
+            - Minyak untuk menumis secukupnya\n
+            - 3 siung bawang putih, cincang\n
+            - 1/2 buah bawang bombay, potong besar-besar\n
+            - 2 sdm kecap ikan\n
+            - 1 sdm saus tiram\n
+            - 1 sdm minyak wijen\n
+            - Garam secukupnya\n
+            - Merica secukupnya\n
+            - Gula pasir secukupnya\n
+            - 300 cc Air\n
+        </item>
+        <item>
+            - 12 buah kacang\n
+            - 1 buah tempe\n
+            - 2 papan petai, kupas kulit\n
+            - 5 bawang putih, iris\n
+            - 4 bawang merah, iris\n
+            - 5 buah cabai merah, iris\n
+            - 1 ruas lengkuas geprek\n
+            - 1 ruas jahe geprek\n
+            - 1 serai geprek\n
+            - 2 daun salam\n
+            - 2 daun jeruk\n
+            - 2 sdm kecap manis\n
+            - 1 sdm saus tiram\n
+            - 1 sdt gula pasir\n
+            - 1/2 sdt garam\n
+            - Air putih\n
+            - Minyak goreng\n
+        </item>
+        <item>
+            - Cumi\n
+            - Margarin\n
+            - Bawang bombay\n
+            - Bawang putih\n
+            - Cabai merah\n
+            - Daun bawang\n
+            - Kecap Manis\n
+            - Saus Tiram\n
+            - Sasa Saus Sambal\n
+            - Sasa MSG\n
+        </item>
+        <item>
+            - ½ kg ikan nila\n
+            - Jeruk nipis\n
+            - 1 sdt garam\n
+            - 5 siung bawang merah\n
+            - 2 siung bawang putih\n
+            - 1 butir kemiri\n
+            - 1 cm kunyit / kunyit bubuk\n
+            - 3 buah cabai keriting merah\n
+            - 1 lembar serai\n
+            - 1 lembar daun salam\n
+            - Cabai rawit secukupnya\n
+            - 15 ml Sasa Santan\n
+            - 1 sdt garam\n
+            - 1 sdt kaldu ayam\n
+            - Lada bubuk secukupnya\n
+            - Gula secukupnya\n
+        </item>
+        <item>
+            - 500 gr cumi\n
+            - Pokak atau takokak secukupnya\n
+            - Garam atau penyedap rasa\n
+            - Bawang bombay, iris\n
+            - Tomat, potong dadu\n
+            - Air jeruk nipis\n
+            - Daun jeruk nipis\n
+            - 12-15 buah bawang merah ukuran kecil\n
+            - 1 siung bawang putih\n
+            - 1 ons cabai hijau\n
+        </item>
+        <item>
+            - 1/2 kg ikan lais\n
+            - 1 buah jeruk nipis\n
+            - 1 sdt garam\n
+            - 2 sdm tempoyak\n
+            - 1 batang serai\n
+            - 3 siung bawang putih\n
+            - 6 siung bawang merah\n
+            - 3 butir kemiri\n
+            - 2 cm kunyit\n
+            - 1 cm jahe\n
+            - 1/2 tomat\n
+            - 5 buah cabai merah\n
+            - 2 cm laos\n
+            - 1/2 sdt garam\n
+            - 1 sdt gula\n
+            - Kemangi dan cabai rawit\n
+            - Daun pisang\n
+        </item>
+        <item>
+            - 1 kg ikan tongkol\n
+            - 1 sdm garam\n
+            - 1 sdt merica bubuk\n
+            - 1 sdm air jeruk nipis\n
+            - Daun pisang, untuk membungkus, secukupnya\n
+            - 100 gr kenari, goreng\n
+            - 5 butir bawang merah\n
+            - 8 buah cabai\n
+            - Sasa Bubuk MSG secukupnya\n
+        </item>
+        <item>
+            - Bakso sapi secukupnya\n
+            - Jamur kuping secukupnya, potong sesuai selera\n
+            - Soun, rendam sebentar dengan air biasa dan tiriskan\n
+            - Wortel secukupnya, potong-potong\n
+            - 1-2 dada ayam fillet, rebus sebentar dan suwir\n
+            - Kacang kapri secukupnya\n
+            - Daun bawang dan seledri secukupnya\n
+            - Bawang goreng secukupnya\n
+            - Minyak goreng untuk menumis bumbu\n
+            - 1/2 siung bawang bombay, cincang halus atau kasar\n
+            - 3-4 siung bawang putih, cincang halus\n
+            - 2 cm jahe, iris\n
+            - 1/2 sdt lada bubuk\n
+            - 1/2 pala bubuk\n
+            - Garam dan kaldu bubuk secukupnya\n
+            - 800 ml air\n
+            - 1 liter air kaldu ayam atau sapi\n
+        </item>
+        <item>
+            - 3 iris ikan tenggiri\n
+            - Belimbing wuluh, buang ujungnya dan potong-potong\n
+            - Mi, rebus sebentar\n
+            - 65 ml santan instan\n
+            - Air secukupnya\n
+            - Cabai rawit secukupnya\n
+            - 1 sdt asam jawa, larutkan dengan air hangat dan buang ampasnya\n
+            - Gula, garam, dan kaldu bubuk\n
+            - 1 ruas lengkuas geprek\n
+            - 1 lembar daun salam\n
+            - Cabai merah keriting sesuai selera pedasnya\n
+            - 6 bawang merah\n
+            - 2 kemiri\n
+            - 1 ruas kunyit\n
+            - 1 sdt terasi\n
+        </item>
+        <item>
+            - 1/4 daging, rebus lalu potong kotak-kotak\n
+            - Buncis, iris-iris\n
+            - 8 bawang merah\n
+            - 6 bawang putih, iris-iris\n
+            - 4 daun jeruk\n
+            - 2 daun salam\n
+            - 2 ruas jari jahe\n
+            - 2 ruas jari laos dan serai\n
+            - 15 cabai hijau iris-iris dan cabai rawit utuh sesuai selera\n
+            - 2 tomat hijau\n
+            - 3 belimbing wuluh\n
+            - Garam, gula pasir, dan penyedap non msg\n
+            - Kecap manis\n
+        </item>
+        <item>
+            - 500 gr daging kerang hijau, cuci bersih, rebus sebentar, tiriskan\n
+            - 1 batang serai geprek\n
+            - 2 lembar salam\n
+            - 2 lembar daun jeruk\n
+            - 5 buah cabai hijau, iris\n
+            - 2 sdm kecap manis\n
+            - Garam dan gula pasir secukupnya\n
+            - Air secukupnya\n
+            - Minyak untuk menumis\n
+            - 6 siung bawang putih\n
+            - 8 siung bawang merah\n
+            - 8 buah cabai merah\n
+            - 8 buah cabai rawit merah\n
+            - 1 sdt merica\n
+            - 3 butir kemiri\n
+            - 1 ruas jahe\n
+        </item>
+        <item>
+            - 250 gr jengkol tua yang sudah direbus, pipihkan\n
+            - 700 ml santan cair\n
+            - 1 batang serai, memarkan\n
+            - 4 lembar daun salam\n
+            - 4 lembar daun jeruk, sobek-sobek- Garam, kaldu jamur, merica bubuk, dan sedikit gula pasir atau gula merah\n
+            - Cabai merah keriting dan rawit sesuai selera\n
+            - 8 butir bawang merah\n
+            - 4 siung bawang putih\n
+            - 4 butir kemiri\n
+            - 1 sdt ketumbar\n
+            - Jahe, kunyit, dan lengkuas\n
+        </item>
+        <item>
+            - 1/2 ekor ayam\n
+            - Air perasan jeruk nipis\n
+            - 500 ml air\n
+            - 4 sdt fiber creme\n
+            - Minyak goreng\n
+            - 8 siung bawang merah\n
+            - 4 siung bawang putih\n
+            - 2 buah cabai hijau besar\n
+            - 5 buah cabai merah keriting\n
+            - 1 ruas lengkuas\n
+            - 1 ruas jahe\n
+            - 2 batang serai\n
+            - 5 buah belimbing wuluh, iris\n
+            - 5 buah cabai rawit merah utuh\n
+            - 2 buah tomat hijau\n
+            - 1 buah tomat merah\n
+            - 5 lembar daun salam\n
+            - 3 lembar daun jeruk\n
+            - Gula, garam, dan kaldu bubuk rasa ayam\n
+            - Daun pisang secukupnya\n
+        </item>
+        <item>
+            - 5 butir telur\n
+            - 2 sdm terigu\n
+            - 70 cc air minum\n
+            - Garam dan penyedap\n
+            - 1/2 batang wortel, potong kecil-kecil\n
+            - 2 sdm kacang polong\n
+            - 5 cm jahe, potong korek api\n
+            - 3 sdm saus tomat\n
+            - 1/2 sdm kecap manis\n
+            - 1 sdm tepung maizena\n
+            - 200 ml air\n
+            - 1 buah jeruk kunci\n
+            - Garam, penyedap jamur, dan gula pasir sesuai selera\n
+        </item>
+        <item>
+            - 1/2 kg tulangan sapi\n
+            - Sayur wortel dan kentang sesuai selera\n
+            - 4 siung bawang putih, iris\n
+            - 4 butir bawang merah, iris\n
+            - 3 buah daun bawang, iris\n
+            - 2 buah seledri, iris\n
+            - 1 buah tomat, potong\n
+            - Gula, garam, dan merica secukupnya\n
+        </item>
+    </string-array>
+
+    <string-array name="data_step">
+        <item>
+            - Goreng kentang, sisihkan.\n
+            - Panaskan minyak\n
+            - Tumis bahan halus sampai kering dan pecah minyak.\n
+            - Masukkan ayam tumis sebentar\n
+            - Kemudian masukkan santan dengan air, aduk rata.\n
+            - Masukkan kerisik, daun jeruk, daun salam, dan daun kunyit.\n
+            - Kemudian masukkan kentang dan telur rebus\n
+            - Tambahkan garam, gula malaka, dan penyedap rasa.\n
+            - Masak dengan api kecil sampai air kering, jika ingin berkuah jangan masak sampai kering.\n
+        </item>
+        <item>
+            - Cuci bersih daging ayam dan lumuri dengan jeruk nipis, diamkan kurang lebih 10 menit.\n
+            - Tumis bumbu gulai sampai wangi\n
+            - Masukkan daun salam, daun jeruk, dan serai\n
+            - Aduk sampai bumbu matang\n
+            - Masukkan ayam, aduk rata\n
+            - Masak sampai berubah warna\n
+            - Tambahkan garam dan kaldu.\n
+            - Masukkan santan encer dan air\n
+            - Masak dengan api sedang sampai daging ayam empuk.\n
+            - Setelah kuah menyusut dan daging ayam empuk\n
+            - Masukkan santan kental, masak sambil terus diaduk sampai santan mendidih dan bumbu meresap.\n
+        </item>
+        <item>
+            - Tumis bumbu halus dengan sedikit minyak.\n
+            - Masukkan air\n
+            - Setelah mendidih masukkan kocokan telur, lalu aduk.\n
+            - Masukkan macaroni, sosis, kerupuk, dan mi, beri gula, garam, dan bumbu mi.\n
+            - Aduk rata, tes rasa\n
+            - Angkat, sajikan dengan daun bawang.\n
+        </item>
+        <item>
+            - Goreng semua bahan sampai agak layu.\n
+            - Ulek, tapi jangan terlalu halus\n
+            - Beri garam dan gula sesuai rasa yang diinginkan.\n
+            - Tinggal siapkan lauk seperti tempe goreng, telur rebus, ayam, udang, dan lain-lain.\n
+        </item>
+        <item>
+            - Cuci bersih jamur, siangi, sisihkan.\n
+            - Goreng tempe setengah kering. Sisihkan.\n
+            - Tumis dua bawang dan cabai sampai harum\n
+            - Masukkan jamur, aduk rata\n
+            - Tambahkan saus tiram, kaldu jamur, gula, dan garam. Aduk rata.\n
+            - Masukkan tempe\n
+            - Beri sedikit air\n
+            - Masak sampai bumbu meresap.\n
+            - Angkat dan sajikan.\n
+        </item>
+        <item>
+            - Tumis bawang putih dan bawang bombay sampai layu.\n
+            - Masukkan bakso dan ayam yang sudah dipotong kotak-kotak.\n
+            - Aduk rata sampai ayam berubah warna2.\n
+            - Masukkan wortel, kembang kol dan jamur merang.\n
+            - Masukkan air dan rebus sampai wortel dan kembang kol setengah matang (tandanya, belum terlalu empuk).\n
+            - Masukkan sawi putih, sawi hijau dan daun bawang.\n
+            - Masukkan bumbu-bumbu dan Sasa Bumbu Ekstrak Daging Sapi.\n
+            - Masak dengan api besar hingga sawi putih dan hijau layu.\n
+            - Icip-icip dan siap dihidangkan.\n
+        </item>
+        <item>
+            - Potong-potong kacang panjang, cuci bersih, dan sisihkan.\n
+            - Potong kecil-kecil tempe dan goreng sebentar.\n
+            - Angkat dan tiriskan.\n
+            - Siapkan wajan beri minyak goreng secukupnya.\n
+            - Tumis bawang merah dan putih sampai layu\n
+            - Lalu masukkan lengkuas, jahe, serai, daun salam, daun jeruk, dan cabai merah\n
+            - Aduk rata.\n
+            - Masukkan kacang panjang dan petai\n
+            - Oseng-oseng lalu beri kecap manis, saus tiram, gula, dan garam, aduk rata\n
+            - Beri sedikit air.\n
+            - Koreksi rasa\n
+            - Terakhir masukkan tempe goreng, oseng-oseng sebentar sampai semua bahan tercampur rata.\n
+            - Lalu matikan api dan sajikan.\n
+        </item>
+        <item>
+            - Lelehkan margarin\n
+            - Kemudian goreng cumi.\n
+            - Ketika sudah setengah matang, sisihkan.\n
+            - Masukkan potongan bawang bombay dan bawang putih, tumis hingga harum.\n
+            - Masukkan cabai merah dan daun bawang.\n
+            - asukkan cumi.
+            - Tambahkan sasa MSG, 1 sdm kecap manis, 1 sdm saus tiram, dan 3 sdm saus sambal.\n
+            - Aduk hingga merata.\n
+            - Cumi saus mentega siap untuk disajikan.\n
+        </item>
+        <item>
+            - Lumuri ikan nila yang telah dicuci dengan jeruk nipis dan garam.\n
+            - Diamkan sekitar 5 hingga 10 menit lalu goreng hingga setengah kering.\n
+            - Ulek bumbu halus kecuali daun salam dan serai.\n
+            - Tumis bumbu halus\n
+            - Masukkan daun salam dan serai.\n
+            - Masak hingga wangi.\n
+            - Tambahkan 200ml air\n
+            - Masukkan cabai rawit.\n
+            - Masak hingga mendidih.\n
+            - Tambahkan bumbu garam, kaldu, lada, dan gula. Koreksi rasa.\n
+            - Masukkan ikan nila yang sudah digoreng.\n
+            - Masak hingga air agak susut.\n
+            - Tambahkan Sasa Santan (boleh santan bubuk/ santan cair). Bisa pakai banyak jika suka gurih dan kental pada santan.\n
+            - Jika bumbu sudah meresap, air sudah susut.\n
+            - Maka pesmol Nila sudah matang dan siap disajikan.\n
+        </item>
+        <item>
+            - Bersihkan cumi, potong-potong.\n
+            - Sirami dengan air jeruk nipis dan garam\n
+            - Diamkan 5 menit, kemudian bilas\n
+            - Goreng cumi sebentar, dan tiriskan.\n
+            - Cuci pokak, goreng sebentar, dan sisihkan.\n
+            - Ulek kasar cabai, garam, dan penyedap.\n
+            - Panaskan minyak\n
+            - Masukkan bawang bombay, potongan tomat, tumis sampai layu\n
+            - Lalu masukkan cabai ulek dan daun jeruk.\n
+            - Masukkan cumi dan pokak, aduk-aduk sampai tercampur rata\n
+            - Sajikan.\n
+        </item>
+        <item>
+            - Cuci ikan lais hingga bersih\n
+            - Lalu beri air jeruk nipis dan garam sedikit saja\n
+            - Diamkan 15 menit.\n
+            - Tumis semua bumbu halus dan serai dengan sedikit minyak hingga harum.\n
+            - Lalu beri garam dan gula\n
+            - Masukkan juga tempoyaknya, cicipi, lalu angkat bumbunya.\n
+            - Lumuri ikan dengan daun kemangi dan cabai rawit.\n
+            - Bungkus dan sematkan ujung daun pisangnya dengan tusuk gigi.\n
+            - Kukus kurang lebih 30 menit.\n
+            - Kemudian bakar di atas teflon.\n
+        </item>
+        <item>
+            - Lumuri ikan tongkol dengan garam, merica bubuk dan air jeruk nipis\n
+            - Diamkan selama 15 menit lalu bungkus dengan daun pisang.\n
+            - Bakar ikan sambil dibolak-balik hingga matang, lalu angkat.\n
+            - Haluskan semua bahan\n
+            - Tambahkan Sasa Bubuk MSG\n
+            - Lalu tambahkan air jeruk nipis, aduk rata.\n
+            - Campurkan semua bahan lalu aduk rata.\n
+            - Sajikan ikan bakar dengan sambal kenari dan sambal kecap.\n
+        </item>
+        <item>
+            - Tumis bawang putih, bawang bombay, dan jahe hingga harum\n
+            - Masukkan pala bubuk dan lada bubuk, aduk rata.\n
+            - Tambahkan air kaldu sesuai selera, biarkan sampai mendidih.\n
+            - Tambahkan wortel, biarkan hingga setengah matang\n
+            - Lalu tambahkan bakso, ayam suwir, kacang kapri, jamur kuping, kaldu bubuk, dan garam\n
+            - Masak semua hingga matang.\n
+            - Beberapa saat sebelum api dimatikan, tambahkan daun bawang.\n
+            - Sajikan dengan bawang goreng dan seledri.\n
+        </item>
+        <item>
+            - Tumis bumbu halus.\n
+            - Masukkan daun salam dan lengkuas\n
+            - Lalu tuang santan dan air, biarkan hingga mendidih.\n
+            - Tambahkan ikan dan belimbing.\n
+            - Masukkan larutan asam jawa.\n
+            - Setelah ikan matang, masukkan cabai rawit, garam, gula, dan kaldu bubuk.\n
+        </item>
+        <item>
+            - Tumis bawang merah dan putih, kemudian cabai hijau.\n
+            - Lalu tuang ke rebusan daging\n
+            - Masukkan semua bumbu kecuali belimbing wuluh dan tomat\n
+            - Masak sampai mendidih.\n
+            - Masukkan buncis.\n
+            - Masukkan tomat, belimbing, garam, gula, penyedap, dan kecap manis.\n
+        </item>
+        <item>
+            - Tumis bumbu halus, daun salam, daun jeruk, dan serai sampai matang dan berminyak.\n
+            - Masukkan kerang, garam, gula pasir, dan kecap manis, aduk-aduk.\n
+            - Tambahkan sedikit air.\n
+            - Masak sampai kerang matang dan bumbu meresap.\n
+            - Terakhir masukkan cabai hijau.\n
+        </item>
+        <item>
+            - Tumis bumbu halus sampai wangi, masukkan serai, daun salam, dan daun jeruk.\n
+            - tumis lagi agak lama sampai bumbu benar-benar matang dan mengeluarkan minyak.\n
+            - Masukkan santan dan jengkol, didihkan.\n
+            - Bumbui garam, kaldu jamur, merica, dan gula sesuai selera.\n
+            - Masak sampai bumbu meresap dan kuah santan menyusut.\n
+            - Jangan lupa cek rasa, angkat, dan sajikan dengan nasi hangat.\n
+        </item>
+        <item>
+            - Kucuri ayam yang telah dibersihkan dengan air perasan jeruk nipis.\n
+            - Diamkan sebentar.\n
+            - Bilas dengan air bersih.\n
+            - Rebus ayam sebentar hingga kotorannya keluar semua.\n
+            - Bersihkan kembali. Sisihkan.\n
+            - Panaskan minyak goreng.\n
+            - Tumis bumbu iris hingga harum.\n
+            - Masukkan ayam, aduk rata.\n
+            - Tambahkan air. Masak hingga mendidih.\n
+            - Jika sudah mendidih, tuang fiber creme, gula, garam, dan kaldu bubuk.\n
+            - Aduk rata. Koreksi rasa.\n
+            - Masak hingga santan menyusut dan ayam matang.\n
+            - Siapkan wadah, alasi dengan daun pisang.\n
+            - Tuang ayam dan kuah serta bumbu pelengkap.\n
+            - Tutup dengan daun pisang.\n
+            - Kukus selama 30 menit.\n
+            - Angkat dan sajikan.\n
+        </item>
+        <item>
+            - Larutkan terigu dengan air, garam, dan penyedap.\n
+            - Campur wortel dan telur, kocok lepas.\n
+            - Panaskan teflon pakai api sedang\n
+            - Tuang kocokan telur, tunggu sebentar, kemudian gulung telur, tapi jangan sampai habis.\n
+            - Sisakan pinggirnya buat sambungan gulungan telur biar tidak putus.\n
+            - Ulangi lagi sampai adonan telur habis. Angkat dan sisihkan.\n
+            - Untuk sausnya, masukkan semua bahan saus kecuali larutan maizena di teflon yang baru dipakai goreng gulungan telur.\n
+            - Tunggu mendidih sebentar, koreksi rasa baru masukkan larutan maizena\n
+            - Angkat dan siram di atas potongan gulungan telur, siap disajikan.\n
+        </item>
+        <item>
+            - Bersihkan tulangan sapi\n
+            - Rebus hingga air mendidih\n
+            - Buang airnya cuci kembali. Lalu rebus hingga empuk, bisa menggunakan presto.\n
+            - Tumis bawang merah dan bawang putih.\n
+            - Masukkan air dan tulangan sapi.\n
+            - Tunggu hingga mendidih, lalu masukkan wortel dan kentang.\n
+            - Tambahkan irisan daun bawang, seledri, gula, garam, dan merica.\n
+            - Rebus selama 30 menit dengan api kecil. Koreksi rasa.\n
+            - Terakhir taburkan bawang goreng, lalu sajikan.\n
+        </item>
+    </string-array>
+</resources>
